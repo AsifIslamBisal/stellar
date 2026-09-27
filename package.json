@@ -1,0 +1,26 @@
+{
+  "name": "stellar-rams-explorer",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Throwaway frontend-only test app for exploring the Stellar / RAMS attendance API directly from the browser.",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "axios": "^1.20.0",
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^5.2.0",
+    "autoprefixer": "^10.6.1",
+    "postcss": "^8.5.28",
+    "tailwindcss": "^3.4.19",
+    "vite": "^7.3.6",
+    "vitest": "^5.0.2"
+  }
+}

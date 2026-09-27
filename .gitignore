@@ -1,0 +1,17 @@
+node_modules
+dist
+dist-ssr
+.vite
+
+# Never commit real Stellar credentials. Anything prefixed VITE_ is bundled
+# into browser-visible JavaScript, so .env must stay local-only.
+.env
+.env.local
+.env.*.local
+
+*.log
+npm-debug.log*
+.DS_Store
+.idea
+.vscode/*
+!.vscode/extensions.json
